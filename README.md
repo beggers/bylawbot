@@ -1,30 +1,12 @@
-## Install and run Ollama
+# BylawBot
 
-### Install
+BylawBot, a bot to help people understand their apartment buildings' bylaws.
 
-```sh
-brew install ollama
-```
+## Set up OpenAPI key
 
-NOTE: The end of the `brew install ollama` output will tell you the correct way to run it on your computer. This is from my output which I expect to be the same for others.
+Put your OpenAPI secret key in `.apikey`.
 
-### Run
-
-To run once:
-
-```sh
-/opt/homebrew/opt/ollama/bin/ollama serve &
-```
-
-To instead start the Ollama service at boot:
-
-```sh
-brew services start ollama
-```
-
-## Python stuff
-
-### Create and activate a virtualenv
+## Create and activate a virtualenv
 
 ```sh
 $ python3 -m venv .venv
